@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Opieka Technical Connector</name>
+    <description>Signed least-privilege connector for Opieka techniczna.</description>
+    <element>pkg_opiekaconnector</element>
+    <type>package</type>
+    <version>0.1.15</version>
+    <infourl title="Opieka Connector">https://indico-sc.github.io/opieka-connector-releases/pkg_opiekaconnector-joomla.zip</infourl>
+    <downloads><downloadurl type="full" format="zip">https://indico-sc.github.io/opieka-connector-releases/pkg_opiekaconnector-joomla.zip</downloadurl></downloads>
+    <tags><tag>stable</tag></tags>
+    <maintainer>Indico</maintainer>
+    <targetplatform name="joomla" version="5\.[0-9]+" />
+    <php_minimum>8.1</php_minimum>
+    <sha256>1460a284d4844f9f3e4b200fefe7930f29ee33dfc8d11deffb614e05e0e4b608</sha256>
+  </update>
+  <update>
+    <name>Opieka Technical Connector</name>
+    <description>Signed least-privilege connector for Opieka techniczna.</description>
+    <element>pkg_opiekaconnector</element>
+    <type>package</type>
+    <version>0.1.15</version>
+    <infourl title="Opieka Connector">https://indico-sc.github.io/opieka-connector-releases/pkg_opiekaconnector-joomla.zip</infourl>
+    <downloads><downloadurl type="full" format="zip">https://indico-sc.github.io/opieka-connector-releases/pkg_opiekaconnector-joomla.zip</downloadurl></downloads>
+    <tags><tag>stable</tag></tags>
+    <maintainer>Indico</maintainer>
+    <targetplatform name="joomla" version="6\.[0-9]+" />
+    <php_minimum>8.1</php_minimum>
+    <sha256>1460a284d4844f9f3e4b200fefe7930f29ee33dfc8d11deffb614e05e0e4b608</sha256>
+  </update>
+</updates>
