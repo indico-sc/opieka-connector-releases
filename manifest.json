@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "generatedAt": "2026-09-02T02:09:08.132Z",
-  "expiresAt": "2026-09-16T02:09:08.133Z",
+  "generatedAt": "2026-09-02T10:49:31.027Z",
+  "expiresAt": "2026-09-16T10:49:31.027Z",
   "rolloutPolicy": "canary-then-staged",
   "operatorInitiatedOnly": true,
   "releases": [
     {
       "cms": "Joomla",
-      "version": "0.1.15",
+      "version": "0.1.16",
       "protocolVersion": "1.0",
       "packageUrl": "https://indico-sc.github.io/opieka-connector-releases/pkg_opiekaconnector-joomla.zip",
-      "sha256": "1460a284d4844f9f3e4b200fefe7930f29ee33dfc8d11deffb614e05e0e4b608",
-      "size": 18856,
+      "sha256": "1720d13ebf201575dcf8b0547face4fb2d566958403437347f1cec3fb53f092f",
+      "size": 18872,
       "canaryPercent": 10
     },
     {
@@ -20,7 +20,7 @@
       "version": "0.1.3",
       "protocolVersion": "1.0",
       "packageUrl": "https://indico-sc.github.io/opieka-connector-releases/opieka-connector-wordpress.zip",
-      "sha256": "c69ac94c0b6fbe7cc4cea1b25eb03def69a4e9495b405e251c530a8d17a13d09",
+      "sha256": "7a3daec5ac2384cb1806d199ea5b96961720515ef62b63882797aca9f1f7b461",
       "size": 9726,
       "canaryPercent": 10
     }
@@ -28,6 +28,6 @@
   "signature": {
     "algorithm": "ed25519",
     "keyId": "opieka-release-2026-01",
-    "value": "uyHqe0Tlkiy2O09S29Ys+ODNJt8qTZZlN3s9urk9dLoenVbrd0MegN80S/oFpLoyUUBf6Y49o5LgsGkheFKlAw=="
+    "value": "wrpBCvsMnBWPnWNvAbjst3Fj12rAtR5iq8N4U3UpPLr7Q9A67bPrrby15KlgTZC0C/uth4XhfxTYJY08Y2GQCA=="
   }
 }
