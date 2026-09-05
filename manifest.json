@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "generatedAt": "2026-09-05T06:26:00.938Z",
-  "expiresAt": "2026-09-19T06:26:00.939Z",
+  "generatedAt": "2026-09-05T11:25:36.573Z",
+  "expiresAt": "2026-09-19T11:25:36.573Z",
   "rolloutPolicy": "canary-then-staged",
   "operatorInitiatedOnly": true,
   "releases": [
     {
       "cms": "Joomla",
-      "version": "0.1.18",
+      "version": "0.1.19",
       "protocolVersion": "1.0",
-      "packageUrl": "https://indico-sc.github.io/opieka-connector-releases/joomla/0.1.18/pkg_opiekaconnector-joomla.zip",
-      "sha256": "1fc40f828b66a9c16ac80e6199bd8f37388dc23dd6ee27010b81eb79d9835f84",
-      "size": 22212,
+      "packageUrl": "https://indico-sc.github.io/opieka-connector-releases/joomla/0.1.19/pkg_opiekaconnector-joomla.zip",
+      "sha256": "10410d886d6403120c80895654d445c8b89064358b8afd1a09e7ab78bde2cf6a",
+      "size": 22987,
       "canaryPercent": 10
     },
     {
@@ -28,6 +28,6 @@
   "signature": {
     "algorithm": "ed25519",
     "keyId": "opieka-release-2026-01",
-    "value": "z0jonTux5jH1eoaFoZRbtrFSbuUuMvTvQxy9CdxHzt+ne6+lTxGfcvMT0wZAly1MPPUQQvtU2DIdQDF/YEbGDg=="
+    "value": "7RtBTNg9slu4CJzOg/XEthwctnaus/kbABns9g6L5iKTQGtxtRn1QBQ+sNzOc6VhyEnO3djZLb3AHqZw2YS0Cg=="
   }
 }
