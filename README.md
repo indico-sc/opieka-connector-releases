@@ -1,11 +1,11 @@
 # Konektory Opieka techniczna
 
-## Wydanie 2026-09-05
+## Wydanie 2026-09-09
 
-- [Joomla 0.1.18 — Joomla 3, 4, 5, 6](joomla/0.1.18/pkg_opiekaconnector-joomla.zip)
-- [WordPress 0.1.4 — WordPress 6, 7](wordpress/0.1.4/opieka-connector-wordpress.zip)
+- [Joomla 0.1.20 — Joomla 3, 4, 5, 6](joomla/0.1.20/pkg_opiekaconnector-joomla.zip)
+- [WordPress 0.1.6 — WordPress 5.3–7.1](wordpress/0.1.6/opieka-connector-wordpress.zip)
 
-Konektory wymagają PHP co najmniej 7.4; wymagania samego CMS mogą być wyższe. Obsługa starszego CMS nie zastępuje jego aktualizacji bezpieczeństwa.
+Konektor Joomla wymaga PHP co najmniej 7.4, a konektor WordPress PHP co najmniej 7.0; wymagania samego CMS mogą być wyższe. Obsługa starszego CMS nie zastępuje jego aktualizacji bezpieczeństwa.
 
 Przetestowane środowiska: Joomla 3.10.11/PHP 7.4, Joomla 4.4.14/PHP 8.1, Joomla 5.4.8/PHP 8.3, Joomla 6.1.3/PHP 8.4, WordPress 6.0.3/PHP 7.4 i WordPress 7.1/PHP 8.3. Nie jest to deklaracja przetestowania każdej historycznej wersji punktowej ani obsługi PHP starszego niż 7.4.
 
@@ -28,5 +28,6 @@ Adresy zawierające wersję są niezmienne. Starsze pliki ZIP w katalogu główn
 - Zachowanie danych dostępowych przy ponownej instalacji.
 - WordPress: obsługa PHP 7.4, zachowanie historii przy reaktywacji, komplet zależności REST i zachowanie aktywacji po aktualizacji pojedynczej wtyczki.
 - Naprawiona identyfikacja pakietu w natywnym strumieniu Joomla.
+- Nazwa wyświetlana w zapleczach Joomla i WordPress: `Support Dj-Extensions Connector`; techniczne identyfikatory aktualizacji pozostają bez zmian.
 
 Testy objęły instalację, ponowną instalację, podpisane health/inventory/events, odrzucanie błędnego podpisu i powtórzonego nonce oraz wymóg HTTPS. Strumień Joomla przeszedł natywne wykrywanie, pobieranie i instalację aktualizacji w czterech liniach. WordPress przeszedł odrzucanie zmienionego manifestu i paczki, aktualizację konektora 0.1.3 → 0.1.4 w testowej instancji 7.1 oraz podpisaną aktualizację testowej wtyczki w 6.0.3 i 7.1. Testy aktualizacji używały izolowanych transportów testowych, a nie stron klientów.
