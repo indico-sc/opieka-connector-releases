@@ -2,7 +2,7 @@
 
 ## Wydanie 2026-09-09
 
-- [Joomla 0.1.20 — Joomla 3, 4, 5, 6](joomla/0.1.20/pkg_opiekaconnector-joomla.zip)
+- [Joomla 0.1.21 — Joomla 3, 4, 5, 6](joomla/0.1.21/pkg_opiekaconnector-joomla.zip)
 - [WordPress 0.1.6 — WordPress 5.3–7.1](wordpress/0.1.6/opieka-connector-wordpress.zip)
 
 Konektor Joomla wymaga PHP co najmniej 7.4, a konektor WordPress PHP co najmniej 7.0; wymagania samego CMS mogą być wyższe. Obsługa starszego CMS nie zastępuje jego aktualizacji bezpieczeństwa.
@@ -29,5 +29,6 @@ Adresy zawierające wersję są niezmienne. Starsze pliki ZIP w katalogu główn
 - WordPress: obsługa PHP 7.4, zachowanie historii przy reaktywacji, komplet zależności REST i zachowanie aktywacji po aktualizacji pojedynczej wtyczki.
 - Naprawiona identyfikacja pakietu w natywnym strumieniu Joomla.
 - Nazwa wyświetlana w zapleczach Joomla i WordPress: `Support Dj-Extensions Connector`; techniczne identyfikatory aktualizacji pozostają bez zmian.
+- Joomla 0.1.21 naprawia tożsamość komponentu i usuwa wyłącznie duplikat utworzony przez 0.1.20.
 
 Testy objęły instalację, ponowną instalację, podpisane health/inventory/events, odrzucanie błędnego podpisu i powtórzonego nonce oraz wymóg HTTPS. Strumień Joomla przeszedł natywne wykrywanie, pobieranie i instalację aktualizacji w czterech liniach. WordPress przeszedł odrzucanie zmienionego manifestu i paczki, aktualizację konektora 0.1.3 → 0.1.4 w testowej instancji 7.1 oraz podpisaną aktualizację testowej wtyczki w 6.0.3 i 7.1. Testy aktualizacji używały izolowanych transportów testowych, a nie stron klientów.
