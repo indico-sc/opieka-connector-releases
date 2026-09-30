@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "generatedAt": "2026-09-16T06:35:13.139Z",
-  "expiresAt": "2026-09-30T06:35:13.140Z",
+  "generatedAt": "2026-09-30T21:09:43.911Z",
+  "expiresAt": "2026-10-14T21:09:43.911Z",
   "rolloutPolicy": "canary-then-staged",
   "operatorInitiatedOnly": true,
   "releases": [
@@ -28,6 +28,6 @@
   "signature": {
     "algorithm": "ed25519",
     "keyId": "opieka-release-2026-01",
-    "value": "K/OLU7w+EF4YawnpFeBfP1w3hLtUNIt3Wa5KhN+VKkjkPdKgcfOrfqFRw6OT6S8wbTZKeC/2Qcd0FCDZKolxBg=="
+    "value": "Z9ThPtbligMeFNpI9LZT1aaay1l69d3FCdtfdpUGpE1z/3YEHt2ErARkGLP3VUqRUdJ+vPQp5nifXIddWCFdCg=="
   }
 }
