@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "generatedAt": "2026-09-30T21:09:43.911Z",
-  "expiresAt": "2026-10-14T21:09:43.911Z",
+  "generatedAt": "2026-10-02T04:13:52.663Z",
+  "expiresAt": "2026-10-16T04:13:52.664Z",
   "rolloutPolicy": "canary-then-staged",
   "operatorInitiatedOnly": true,
   "releases": [
     {
       "cms": "Joomla",
-      "version": "0.1.24",
+      "version": "0.1.25",
       "protocolVersion": "1.0",
-      "packageUrl": "https://indico-sc.github.io/opieka-connector-releases/joomla/0.1.24/pkg_opiekaconnector-joomla.zip",
-      "sha256": "5fb76705960d8c6eea2c0948a1ea8449d3d7a3893cfca64add8cba454e5d141a",
-      "size": 24232,
+      "packageUrl": "https://indico-sc.github.io/opieka-connector-releases/joomla/0.1.25/pkg_opiekaconnector-joomla.zip",
+      "sha256": "b8bd79aea3c16aa00cc6dc317f012a9580d25b3b4fb442f1f5e5b86b872732f8",
+      "size": 26907,
       "canaryPercent": 10
     },
     {
       "cms": "WordPress",
-      "version": "0.1.9",
+      "version": "0.1.10",
       "protocolVersion": "1.0",
-      "packageUrl": "https://indico-sc.github.io/opieka-connector-releases/wordpress/0.1.9/opieka-connector-wordpress.zip",
-      "sha256": "c866de4f2339b33d557c2fd0f0aeb0927c6ab749a1f433af36fa8b042b061594",
-      "size": 11537,
+      "packageUrl": "https://indico-sc.github.io/opieka-connector-releases/wordpress/0.1.10/opieka-connector-wordpress.zip",
+      "sha256": "253df1d46dfe9f19064529e7bc2b34e7ff2f9529f4bc2b317b1f85bcaeb1c304",
+      "size": 14881,
       "canaryPercent": 10
     }
   ],
   "signature": {
     "algorithm": "ed25519",
     "keyId": "opieka-release-2026-01",
-    "value": "Z9ThPtbligMeFNpI9LZT1aaay1l69d3FCdtfdpUGpE1z/3YEHt2ErARkGLP3VUqRUdJ+vPQp5nifXIddWCFdCg=="
+    "value": "OTjunAUQ313NLpHbVuI/qxx34AOiLvAXFXTSzOLrLraxQCtXs/mrcXMi+CmsI8SCLDEEJgVXouqL4TAITllQCA=="
   }
 }
